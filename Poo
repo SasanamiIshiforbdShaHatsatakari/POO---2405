@@ -43,7 +43,7 @@ class Pessoa(val nome: String, val altura:Double, val corDosOlhos: String, val p
     */
 }
 
- var dinossauro = Animal("Titanossauro", 'M' , "Região noroeste paulista" , "Herbivoro" , 140000000 , false)
+  /*var dinossauro = Animal("Titanossauro", 'M' , "Região noroeste paulista" , "Herbivoro" , 140000000 , false)
     println("meu dino é um " + dinossauro.especie + " ele é " + dinossauro.dieta + " e ele viveu á " + dinossauro.idade)
     //dinossauro.Atacar(false)
     dinossauro.
@@ -73,4 +73,4 @@ class Animal(val especie: String, val genero: Char, val habitat: String,
 
     //Métodos - Comportamentos da nossa classe, que os nossos objetos receberão
     //eles são declarados usando funções
-
+*/
