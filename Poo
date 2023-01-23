@@ -43,32 +43,55 @@ class Pessoa(val nome: String, val altura:Double, val corDosOlhos: String, val p
     */
 }
 
-  /*var dinossauro = Animal("Titanossauro", 'M' , "Região noroeste paulista" , "Herbivoro" , 140000000 , false)
+  /* var dinossauro = Animal("Titanossauro", 'M' , "Região noroeste paulista" , "Herbivoro" , 140000000 , false)
     println("meu dino é um " + dinossauro.especie + " ele é " + dinossauro.dieta + " e ele viveu á " + dinossauro.idade)
-    //dinossauro.Atacar(false)
-    dinossauro.
+    dinossauro.Atacar(true)
+    dinossauro.passivo(false)
+    dinossauro.estaminaZero(false)
 }
 class Animal(val especie: String, val genero: Char, val habitat: String,
             val dieta: String, val idade: Int, val voa: Boolean){
-   /* fun Atacar(/*bravo: Boolean*/){
+    fun Atacar(bravo: Boolean){
         
         if(bravo == true){
-              println("Titanossauro...ataque!!!")
+              println("Titanossauro...ataque!!! \n")
         }else{
-            println("Titanossauro está de boa, suavao, moh paizse")
-        }*/
+            println("Titanossauro está de boa, suavao, moh paizse \n")
+        }
         
- 
-        fun Passivo(atacado: Boolean){
+    }
+     fun passivo(atacado: Boolean){
             if(atacado == true){
-                println("Titanossauro...Corre")
+                println("Titanossauro...Corre \n")
             }else{
-               println("Titanossauro está na passiva")
+               println("Titanossauro está na passiva \n")
+            }   
+     }                   
+     fun estaminaZero(fugindo: Boolean){
+            if(fugindo == true){
+                println("Continua correndo Tita \n")
+            }else{
+               println("Adios my dino \n")
             }
         
-        }
-    }
+     }
+}*/
     //exercicio: Façâ um novo comportamento para o seu animal usando uma nova função 
+   
+    //Métodos - Comportamentos da nossa classe, que os nossos objetos receberão
+    //eles são declarados usando funções
+    
+ val contaCorrente =  contaNoBanco(1997, 999999999.99, "Safra", "din dinou din" )
+   
+    class contaNoBanco(var senha: Int, var saldo :Double, var banco: String, var dono: String){
+        
+        fun consultarSaldo(){
+            println("O saldo da sua conta é R$$saldo")
+        }
+        
+    }
+}
+
 }
 
     //Métodos - Comportamentos da nossa classe, que os nossos objetos receberão
